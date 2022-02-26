@@ -1,0 +1,22 @@
+.home-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home-cover {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+@media screen and (max-width: 850px) {
+    .home-cover {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+      }
+}

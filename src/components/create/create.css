@@ -1,0 +1,39 @@
+.name,
+.email,
+.password,
+.username,
+.address,
+.phone,
+.website {
+  margin: 10px;
+  color: #969292;
+  font-size: 16px;
+}
+
+.create-form {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  padding: 30px;
+}
+
+.create-wrapper {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.from-wrapper {
+  width: 90%;
+}
+
+@media screen and (max-width: 850px) {
+  .create-wrapper {
+    width: 95%;
+  }
+}
